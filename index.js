@@ -74,11 +74,21 @@ function equals() {
         result=g*h;
         display.value+='='+result;
     }
-    else if(opt=='ac'){
-
-    }
     else{
         display.value=0;
+    }
+    
+}
+function ac(ac) {
+    if (ac=='ac') {
+        firstvalue=" ";
+        secondvalue="";
+        opt="";
+        result="";
+        display.value=0;
+    }
+    else{
+
     }
     
 }
